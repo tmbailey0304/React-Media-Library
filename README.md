@@ -1,8 +1,13 @@
-# React + Vite
+# React Media Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Deployment Instructions
 
-Currently, two official plugins are available:
+Follow these steps to deploy the application:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Create a .env file**: This file should be in the root directory of the project.
+2. **Get your Pexels API key**: Visit Pexels API to get your API key.
+3. **Add your API key to the .env file**: Add the following line to your .env file:
+    ```
+    VITE_REACT_API_KEY = "YOUR API KEY"
+    ```
+Replace `"YOUR API KEY"` with the actual API key you got from Pexels.
