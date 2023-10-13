@@ -13,3 +13,7 @@ Follow these steps to deploy the application:
     Replace `"YOUR API KEY"` with the actual API key you got from Pexels.
 4. **Install Dependencies**: To install all the necessary dependencies, run the following command ```npm install```
 5. **Start Server**: Lastly, you can run the following command to start the server ```npm run dev```
+
+## Website Demo
+
+[Click here](https://react-media-library.netlify.app/) to view the website demo!
